@@ -1,0 +1,25 @@
+{
+  "name": "demos",
+  "version": "0.0.0",
+  "description": "Site for demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ecstatic public",
+    "deploy": "surge public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/demos.git"
+  },
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/demos/issues"
+  },
+  "homepage": "https://github.com/nichoth/demos#readme",
+  "private": true,
+  "devDependencies": {
+    "ecstatic": "^1.4.0"
+  }
+}
